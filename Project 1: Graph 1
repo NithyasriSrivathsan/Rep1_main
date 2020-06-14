@@ -1,0 +1,13 @@
+# Plot of date vs daily cases in June 2020
+
+import matplotlib.pyplot as p
+
+x=[1,2,3,4,5,6,7,8,9,10,11,12,13] // alternatively, for loop can be used to poplulate the array
+y=[408,544,569,517,261,344,383,386,218,451,422,463,347] // data from MOH, Singapore
+
+p.plot(x,y)
+
+p.xlabel("June")
+p.ylabel("Daily confirmed cases")
+
+p.show()
